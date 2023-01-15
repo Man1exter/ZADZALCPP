@@ -1,0 +1,34 @@
+ZAŁOŻENIA PROGRAMU NAPISANEGO W C++ - MARIUSZ PERZYŃSKI nr.index: 25881
+
+
+1.Progam pyta uzytkownika czy chcesz 1-dodac uzytkownika / 2-wyszukac uzytkownika
+
+!Jeżeli wpisanie innch liczb niz [1 lub 2] wyskoczy stosowany komunikat o bledzie
+
+
+2.Program prosi o podanie danych użytkownika:
+
+( imie,nazwisko,rok urodzenia, miejscowosc )
+
+
+3.Następnie wpisuje je do bazy danych ( pliku txt )
+
+Po wpisaniu do bazy danych prosi o:
+
+- imie
+- nazwisko
+
+( WELKOSC LITER NIE MA ZNACZENIA )
+
+
+4.Jeżeli imie i naziwsko sa zgodne z tym co jest w tej samej linijce w pliku txt (TAK)
+
+- pokazuje calosc uzytkownika
+
+Jezeli imie lub nazwisko nie jest zgodnie (NIE)
+
+- Wyświetla stosowny komunikat ze nie znaleziono
+
+
+!Dane początkowe są wpisywane do pliku.txt za pomoca otwarcia i zapisu do niego  ->  pliku, na samym koncu plik jest zamykany
+!Plik aby wyszukac danego uzytkownika znowu jest otwierany ale tylko do odczytu i zamykany po uzyskaniu odpowiedzi
